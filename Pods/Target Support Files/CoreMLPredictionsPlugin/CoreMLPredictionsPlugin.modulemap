@@ -1,0 +1,6 @@
+framework module CoreMLPredictionsPlugin {
+  umbrella header "CoreMLPredictionsPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}
