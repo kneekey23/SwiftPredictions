@@ -16,9 +16,9 @@ struct EntityRow: View {
     var body: some View {
         NavigationLink(destination: EntityDetailView(incomingImage: image, entity: entity)) {
             HStack {
-                Text("Gender: " + entity.gender.gender.rawValue)
+                Text("Gender: " + (entity.gender?.gender.rawValue ?? "N/A"))
                 Spacer()
-                Text("Age: " + String(entity.ageRange.low) + " - " + String(entity.ageRange.high))
+                Text("Age: " + String(entity.ageRange?.low ?? 0)  + " - " + String(entity.ageRange?.high ?? 0))
             }
         }
     }
