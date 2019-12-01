@@ -71,8 +71,10 @@ struct PredictionsIdentifyView: View {
 
         for entity in result.entities {
             print(entity)
-            let newEntity = IdentifiedEntity(id: UUID(), boundingBox: entity.boundingBox, ageRange: entity.ageRange, gender: entity.gender)
+            
+            let newEntity = IdentifiedEntity(id: UUID(), boundingBox: entity.boundingBox, ageRange: entity.ageRange ?? nil, gender: entity.gender ?? nil)
             resultEntities.append(newEntity)
+            
         }
     }
     
