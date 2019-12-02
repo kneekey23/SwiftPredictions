@@ -12,6 +12,6 @@ import Amplify
 struct IdentifiedEntity: Identifiable {
     var id: UUID
     var boundingBox: CGRect
-    var ageRange: AgeRange?
-    var gender: GenderAttribute?
+    var ageRange: AgeRange
+    var gender: GenderAttribute
 }

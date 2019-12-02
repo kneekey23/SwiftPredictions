@@ -1,6 +1,0 @@
-framework module AWSComprehend {
-  umbrella header "AWSComprehend-umbrella.h"
-
-  export *
-  module * { export * }
-}

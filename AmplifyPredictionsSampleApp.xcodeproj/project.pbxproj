@@ -703,7 +703,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AmplifyPredictionsSampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = W3DRXD72QU;
+				DEVELOPMENT_TEAM = 5ZQT6X6FGJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AmplifyPredictionsSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
@@ -725,7 +725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AmplifyPredictionsSampleApp/Preview Content\"";
-				DEVELOPMENT_TEAM = W3DRXD72QU;
+				DEVELOPMENT_TEAM = 5ZQT6X6FGJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AmplifyPredictionsSampleApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
