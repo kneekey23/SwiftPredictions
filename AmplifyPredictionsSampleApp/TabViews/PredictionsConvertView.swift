@@ -20,7 +20,7 @@ struct PredictionsConvertView: View {
     func translateText(text:String) {
         _ = Amplify.Predictions.convert(textToTranslate: text,
                                         language: .english,
-                                        targetLanguage: .italian,
+                                        targetLanguage: .hebrew,
                                         options: PredictionsTranslateTextRequest.Options(),
                                         listener: { (event) in
                                             

@@ -1,0 +1,43 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "predictions": {
+        "plugins": {
+            "awsPredictionsPlugin": {
+                "defaultRegion": "us-west-2",
+                "identify": {
+                    "identifyLabels": {
+                        "region": "us-west-2",
+                        "type": "LABELS",
+                        "defaultNetworkPolicy": "auto"
+                    },
+                    "identifyEntities": {
+                        "maxEntities": 50,
+                        "celebrityDetectionEnabled": "true",
+                        "region": "us-west-2",
+                        "defaultNetworkPolicy": "auto"
+                    },
+                    "identifyText": {
+                        "format": "ALL",
+                        "region": "us-west-2",
+                        "defaultNetworkPolicy": "auto"
+                    }
+                },
+                "convert": {
+                    "translateText": {
+                        "targetLanguage": "he",
+                        "sourceLanguage": "en",
+                        "region": "us-west-2",
+                        "defaultNetworkPolicy": "auto"
+                    },
+                    "speechGenerator": {
+                        "voiceId": "Justin",
+                        "language": "en-US",
+                        "region": "us-west-2",
+                        "defaultNetworkPolicy": "auto"
+                    }
+                }
+            }
+        }
+    }
+}

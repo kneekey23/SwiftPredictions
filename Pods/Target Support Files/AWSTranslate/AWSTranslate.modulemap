@@ -1,0 +1,6 @@
+framework module AWSTranslate {
+  umbrella header "AWSTranslate-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_AmplifyPredictionsSampleApp {
+  umbrella header "Pods-AmplifyPredictionsSampleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

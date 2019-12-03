@@ -1,0 +1,6 @@
+framework module AWSTextract {
+  umbrella header "AWSTextract-umbrella.h"
+
+  export *
+  module * { export * }
+}

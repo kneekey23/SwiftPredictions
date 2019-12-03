@@ -8,10 +8,10 @@ target 'AmplifyPredictionsSampleApp' do
   use_frameworks!
 
   # Pods for AmplifyPredictionsSampleApp
-  pod 'Amplify', :path => '/Users/nikdabn/tests/testpredictions/amplify-ios'
-  pod 'AWSPluginsCore', :path => '/Users/nikdabn/tests/testpredictions/amplify-ios'
-  pod 'CoreMLPredictionsPlugin', :path => '/Users/nikdabn/tests/testpredictions/amplify-ios'
-  pod 'AmplifyPlugins/AWSPredictionsPlugin', :path => '/Users/nikdabn/tests/testpredictions/amplify-ios'
+  pod 'Amplify', :path => '~/Projects/Amplify/amplify-ios'
+  pod 'AWSPluginsCore', :path => '~/Projects/Amplify/amplify-ios'
+  pod 'CoreMLPredictionsPlugin', :path => '~/Projects/Amplify/amplify-ios'
+  pod 'AmplifyPlugins/AWSPredictionsPlugin', :path => '~/Projects/Amplify/amplify-ios'
 
 end
 
