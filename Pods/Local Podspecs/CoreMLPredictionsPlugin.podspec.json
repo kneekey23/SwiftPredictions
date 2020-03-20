@@ -1,6 +1,6 @@
 {
   "name": "CoreMLPredictionsPlugin",
-  "version": "0.0.1",
+  "version": "0.10.0",
   "summary": "Amazon Web Services Amplify for iOS.",
   "description": "AWS Amplify for iOS provides a declarative library for application development using cloud services",
   "homepage": "https://aws.amazon.com/amplify/",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/aws-amplify/amplify-ios.git",
-    "tag": "0.0.1"
+    "tag": "0.10.0"
   },
   "requires_arc": true,
   "source_files": "AmplifyPlugins/Predictions/CoreMLPredictionsPlugin/**/*.swift",
   "dependencies": {
     "Amplify": [
-      "0.0.1"
+      "0.10.0"
     ]
   }
 }

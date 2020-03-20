@@ -12,7 +12,7 @@
                         "defaultNetworkPolicy": "auto"
                     },
                     "identifyEntities": {
-                        "maxEntities": 50,
+                        "maxEntities": "0",
                         "celebrityDetectionEnabled": "true",
                         "region": "us-west-2",
                         "defaultNetworkPolicy": "auto"
@@ -23,15 +23,27 @@
                         "defaultNetworkPolicy": "auto"
                     }
                 },
+                "interpret": {
+                    "interpretText": {
+                        "region": "us-west-2",
+                        "type": "ALL",
+                        "defaultNetworkPolicy": "auto"
+                    }
+                },
                 "convert": {
                     "translateText": {
-                        "targetLanguage": "he",
-                        "sourceLanguage": "en",
+                        "targetLang": "ja",
+                        "sourceLang": "en",
                         "region": "us-west-2",
                         "defaultNetworkPolicy": "auto"
                     },
                     "speechGenerator": {
-                        "voiceId": "Justin",
+                        "voice": "Ivy",
+                        "language": "en-US",
+                        "region": "us-west-2",
+                        "defaultNetworkPolicy": "auto"
+                    },
+                    "transcription": {
                         "language": "en-US",
                         "region": "us-west-2",
                         "defaultNetworkPolicy": "auto"

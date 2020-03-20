@@ -24,9 +24,7 @@ struct PredictionsIdentifyView: View {
     @State var unsafeContent: String? = ""
    
     func detectLabels(_ image:URL) {
-        
-        let options = PredictionsIdentifyRequest.Options(defaultNetworkPolicy: .auto, pluginOptions: nil)
-        _ = Amplify.Predictions.identify(type: .detectLabels(.labels), image: image, options: options, listener: { (event) in
+        _ = Amplify.Predictions.identify(type: .detectLabels(.labels), image: image, options: PredictionsIdentifyRequest.Options(), listener: { (event) in
             
             switch event {
             case .completed(let result):

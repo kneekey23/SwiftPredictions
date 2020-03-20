@@ -8,7 +8,7 @@
 
 import UIKit
 import Amplify
-import AmplifyPlugins
+import AWSPredictionsPlugin
 import AWSMobileClient
 import CoreMLPredictionsPlugin
 

@@ -1,5 +1,5 @@
 //
-// Copyright 2010-2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+// Copyright 2010-2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License").
 // You may not use this file except in compliance with the License.
@@ -128,6 +128,7 @@ typedef NS_ENUM(NSInteger, AWSPollyVoiceId) {
     AWSPollyVoiceIdAstrid,
     AWSPollyVoiceIdBianca,
     AWSPollyVoiceIdBrian,
+    AWSPollyVoiceIdCamila,
     AWSPollyVoiceIdCarla,
     AWSPollyVoiceIdCarmen,
     AWSPollyVoiceIdCeline,
@@ -157,6 +158,7 @@ typedef NS_ENUM(NSInteger, AWSPollyVoiceId) {
     AWSPollyVoiceIdLiv,
     AWSPollyVoiceIdLotte,
     AWSPollyVoiceIdLucia,
+    AWSPollyVoiceIdLupe,
     AWSPollyVoiceIdMads,
     AWSPollyVoiceIdMaja,
     AWSPollyVoiceIdMarlene,

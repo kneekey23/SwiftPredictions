@@ -11,7 +11,7 @@ target 'AmplifyPredictionsSampleApp' do
   pod 'Amplify', :path => '~/Projects/Amplify/amplify-ios'
   pod 'AWSPluginsCore', :path => '~/Projects/Amplify/amplify-ios'
   pod 'CoreMLPredictionsPlugin', :path => '~/Projects/Amplify/amplify-ios'
-  pod 'AmplifyPlugins/AWSPredictionsPlugin', :path => '~/Projects/Amplify/amplify-ios'
+  pod 'AWSPredictionsPlugin', :path => '~/Projects/Amplify/amplify-ios'
 
 end
 

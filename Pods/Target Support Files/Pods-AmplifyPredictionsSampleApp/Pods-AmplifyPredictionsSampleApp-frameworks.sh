@@ -169,12 +169,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSPluginsCore/AWSPluginsCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSPredictionsPlugin/AWSPredictionsPlugin.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSTextract/AWSTextract.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AWSTranscribe/AWSTranscribe.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSTranscribeStreaming/AWSTranscribeStreaming.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSTranslate/AWSTranslate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Amplify/Amplify.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AmplifyPlugins/AmplifyPlugins.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreMLPredictionsPlugin/CoreMLPredictionsPlugin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -186,12 +186,12 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSPluginsCore/AWSPluginsCore.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSPredictionsPlugin/AWSPredictionsPlugin.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSRekognition/AWSRekognition.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSTextract/AWSTextract.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AWSTranscribe/AWSTranscribe.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AWSTranscribeStreaming/AWSTranscribeStreaming.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AWSTranslate/AWSTranslate.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Amplify/Amplify.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AmplifyPlugins/AmplifyPlugins.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CoreMLPredictionsPlugin/CoreMLPredictionsPlugin.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

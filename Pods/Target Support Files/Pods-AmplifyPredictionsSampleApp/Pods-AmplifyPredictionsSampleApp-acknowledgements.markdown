@@ -215,27 +215,7 @@ The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, w
 The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
 
 
-## AWSRekognition
-
-The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
-
-
-## AWSTextract
-
-The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
-
-
-## AWSTranscribe
-
-The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
-
-
-## AWSTranslate
-
-The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
-
-
-## Amplify
+## AWSPredictionsPlugin
 
 
                                  Apache License
@@ -414,7 +394,27 @@ The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, w
       of your accepting any such warranty or additional liability.
 
 
-## AmplifyPlugins
+## AWSRekognition
+
+The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
+
+
+## AWSTextract
+
+The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
+
+
+## AWSTranscribeStreaming
+
+The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
+
+
+## AWSTranslate
+
+The AWS Mobile SDK for iOS is generally licensed under the Apache 2.0 License, with the AWSLex/Bluefront folder under the AWS Customer Agreement (https://aws.amazon.com/agreement/ ). 
+
+
+## Amplify
 
 
                                  Apache License

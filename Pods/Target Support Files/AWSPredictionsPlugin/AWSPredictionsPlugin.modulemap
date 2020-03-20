@@ -1,0 +1,6 @@
+framework module AWSPredictionsPlugin {
+  umbrella header "AWSPredictionsPlugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

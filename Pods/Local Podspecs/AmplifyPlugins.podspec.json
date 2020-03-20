@@ -1,6 +1,6 @@
 {
   "name": "AmplifyPlugins",
-  "version": "0.0.1",
+  "version": "0.10.0",
   "summary": "Amazon Web Services Amplify for iOS.",
   "description": "AWS Amplify for iOS provides a declarative library for application development using cloud services",
   "homepage": "http://aws.amazon.com/mobile/sdk",
@@ -9,38 +9,38 @@
     "Amazon Web Services": "amazonwebservices"
   },
   "platforms": {
-    "ios": "13.0"
+    "ios": "11.0"
   },
   "source": {
     "git": "https://github.com/aws-amplify/amplify-ios.git",
-    "tag": "0.0.1"
+    "tag": "0.10.0"
   },
   "requires_arc": true,
   "subspecs": [
     {
-      "name": "AWSAPICategoryPlugin",
+      "name": "AWSAPIPlugin",
       "source_files": "AmplifyPlugins/API/AWSAPICategoryPlugin/**/*.swift",
       "dependencies": {
         "AWSPluginsCore": [
-          "0.0.1"
+          "0.10.0"
         ],
         "Starscream": [
           "~> 3.0.2"
+        ],
+        "ReachabilitySwift": [
+          "~> 5.0.0"
         ]
       }
     },
     {
-      "name": "AWSDataStoreCategoryPlugin",
+      "name": "AWSDataStorePlugin",
       "source_files": "AmplifyPlugins/DataStore/AWSDataStoreCategoryPlugin/**/*.swift",
       "dependencies": {
         "AWSPluginsCore": [
-          "0.0.1"
+          "0.10.0"
         ],
         "SQLite.swift": [
           "~> 0.12.0"
-        ],
-        "ReachabilitySwift": [
-          "~> 5.0.0"
         ]
       }
     },
@@ -49,43 +49,10 @@
       "source_files": "AmplifyPlugins/Analytics/AWSPinpointAnalyticsPlugin/**/*.swift",
       "dependencies": {
         "AWSPinpoint": [
-          "~> 2.12.0"
+          "~> 2.12.6"
         ],
         "AWSPluginsCore": [
-          "0.0.1"
-        ]
-      }
-    },
-    {
-      "name": "AWSPredictionsPlugin",
-      "platforms": {
-        "ios": "13.0"
-      },
-      "source_files": "AmplifyPlugins/Predictions/AWSPredictionsPlugin/**/*.swift",
-      "dependencies": {
-        "AWSComprehend": [
-          "~> 2.12.0"
-        ],
-        "AWSPluginsCore": [
-          "0.0.1"
-        ],
-        "AWSPolly": [
-          "~> 2.12.0"
-        ],
-        "AWSRekognition": [
-          "~> 2.12.0"
-        ],
-        "AWSTextract": [
-          "~> 2.12.0"
-        ],
-        "AWSTranscribe": [
-          "~> 2.12.0"
-        ],
-        "AWSTranslate": [
-          "~> 2.12.0"
-        ],
-        "CoreMLPredictionsPlugin": [
-          "0.0.1"
+          "0.10.0"
         ]
       }
     },
@@ -94,10 +61,10 @@
       "source_files": "AmplifyPlugins/Storage/AWSS3StoragePlugin/**/*.swift",
       "dependencies": {
         "AWSPluginsCore": [
-          "0.0.1"
+          "0.10.0"
         ],
         "AWSS3": [
-          "~> 2.12.0"
+          "~> 2.12.6"
         ]
       }
     }

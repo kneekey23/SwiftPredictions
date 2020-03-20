@@ -1,39 +1,49 @@
 {
 	"auth": {
-		"amplifypredictionsa8218a13": {
+		"amplifypredictionssa52876006": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
 	},
 	"predictions": {
-		"identifyLabels88acd83b": {
+		"identifyLabelsd6e9644c": {
 			"providerPlugin": "awscloudformation",
 			"service": "Rekognition",
 			"dependsOn": [],
 			"identifyType": "identifyLabels"
 		},
-		"identifyEntities5150d1b8": {
+		"identifyEntities40bef032": {
 			"providerPlugin": "awscloudformation",
 			"service": "Rekognition",
 			"dependsOn": [],
 			"identifyType": "identifyEntities"
 		},
-		"identifyText33fc0163": {
+		"identifyTexta32be993": {
 			"providerPlugin": "awscloudformation",
 			"service": "RekognitionAndTextract",
 			"dependsOn": [],
 			"identifyType": "identifyText"
 		},
-		"translateText62ae47cd": {
+		"interpretTextd79ffb1d": {
+			"providerPlugin": "awscloudformation",
+			"service": "Comprehend",
+			"interpretType": "interpretText"
+		},
+		"translateText7e145d8f": {
 			"providerPlugin": "awscloudformation",
 			"service": "Translate",
 			"convertType": "translateText"
 		},
-		"speechGeneratorf8d2aa3d": {
+		"speechGeneratordbb9ca07": {
 			"providerPlugin": "awscloudformation",
 			"service": "Polly",
 			"convertType": "speechGenerator"
+		},
+		"transcription96446511": {
+			"providerPlugin": "awscloudformation",
+			"service": "Transcribe",
+			"convertType": "transcription"
 		}
 	}
 }
